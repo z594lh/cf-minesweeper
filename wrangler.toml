@@ -1,0 +1,14 @@
+name = "cf-minesweeper"
+main = "src/optimized.js"
+compatibility_date = "2025-06-20"
+
+# KV存储配置 - 排行榜数据
+# Deploy to Cloudflare 按钮会自动创建和配置KV命名空间
+# 手动部署时需要创建KV命名空间并替换下面的ID
+[[kv_namespaces]]
+binding = "LEADERBOARD"
+id = "your-kv-namespace-id-here"
+preview_id = "your-preview-kv-namespace-id-here"
+
+[env.production]
+name = "cf-minesweeper"

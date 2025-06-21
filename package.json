@@ -1,0 +1,16 @@
+{
+  "name": "cf-minesweeper",
+  "version": "1.0.0",
+  "description": "经典扫雷游戏 - 部署在Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": ["minesweeper", "game", "cloudflare-workers", "classic"],
+  "author": "Claude 4.0 sonnet",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
