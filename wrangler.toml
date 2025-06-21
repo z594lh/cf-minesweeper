@@ -6,9 +6,9 @@ compatibility_date = "2025-06-20"
 # Deploy to Cloudflare 按钮会自动创建和配置KV命名空间
 # 手动部署时需要创建KV命名空间并替换下面的ID
 [[kv_namespaces]]
-binding = "LEADERBOARD"
-id = "your-kv-namespace-id-here"
-preview_id = "your-preview-kv-namespace-id-here"
+binding = "SHAOLEI"
+id = "3d1e1b09f00849e484cf3eb845a7561e"
+preview_id = "3d1e1b09f00849e484cf3eb845a7561e"
 
 [env.production]
 name = "cf-minesweeper"
