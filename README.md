@@ -12,8 +12,7 @@
 
 ## 🎮 在线体验
 
-**立即游戏：** https://cf-minesweeper.heartwopen.workers.dev/
-
+### 立即游戏： https://cf-minesweeper.heartwopen.workers.dev/ 
 
 ![image](https://github.com/user-attachments/assets/bd1ba746-ed7e-4071-95fe-7ef6f2c582a0)
 
